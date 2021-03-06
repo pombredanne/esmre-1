@@ -2,7 +2,6 @@ include AUTHORS
 include COPYING
 include INSTALL
 include MANIFEST.in
-include src/ac_heap.h
-include src/ac_list.h
-include src/ac_types.h
-include src/aho_corasick.h
+include src/esm.pyx
+include src/aho_corasick.pxd
+recursive-include src/esm *
